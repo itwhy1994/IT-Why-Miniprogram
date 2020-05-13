@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="container_center">
+
+	<view class="layout_vertical title">
+		<text class="main">IT信息技术服务</text>
+		<text class="sub">IT运维、软件开发</text>
+	</view>
+
+	<!-- 用户 -->
+	<view class="layout_horizontal userinfo">
+		<open-data class="avatar" type="userAvatarUrl"></open-data>
+		<view class="layout_vertical">
+			<open-data class="nickname" type="userNickName"></open-data>
+			<text class="touser">感谢您的使用！</text>
+		</view>
+
+	</view>
+
+	<view class="container_left related_product">
+		<text class="title">相关产品</text>
+
+		<view class="layout_horizontal list" bindtap="bindtap_niceshopping">
+			<image class="image_logo" src="cloud://cloud-server-21b40.636c-cloud-server-21b40-1252856972/image/logo/logo_niceshopping.jpg"></image>
+			<view class="layout_vertical">
+				<text>惠买手账</text>
+				<text>帮你记录周边购物信息，让你买得更优惠，买得更实在！</text>
+			</view>
+		</view>
+
+		<view class="layout_horizontal list" bindtap="bindtap_cdia">
+			<image class="image_logo" src="cloud://cloud-server-21b40.636c-cloud-server-21b40-1252856972/image/logo/logo_cdia.jpg"></image>
+			<view class="layout_vertical">
+				<text>公司运维辅助系统</text>
+				<text>库房管理、工具管理、档案台账、设备巡查维护等！</text>
+			</view>
+		</view>
+
+	</view>
+
+</view>
